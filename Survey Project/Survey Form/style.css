@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 33, 33);
+    color: white;
+    padding: 0 0 50px 0;
+}
+h1 {
+    font-family: Verdana;
+    text-align: center;
+}
+p {
+    font-family: Arial;
+    text-align: center;
+}
+form {
+    font-family: Arial;
+    width: 70%;
+    height: 70%;
+    padding: 30px;
+    background-color: rgb(56, 54, 54);
+    margin: auto;
+    border-radius: 10px;
+}
+fieldset {
+    border: none;
+}
+label {
+    display: block;
+    margin: 0.6rem 0;
+}
+input{
+    display: block;
+    width: 97%;
+    height: 25px;
+    border-radius: 6px;
+    padding: 7px;
+    margin: 10px 0;
+}
+select {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 3px;
+    margin: 10px 0;
+}
+.gender {
+    margin: 10px;
+    width: unset;
+    height: unset;
+    display: inline-block;
+}
+input[type="submit"] {
+    font-size: 20px;
+    width: 99%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+}
+textarea {
+    display: block;
+    margin: 10px 0;
+}
